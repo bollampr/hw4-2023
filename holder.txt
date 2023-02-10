@@ -1,0 +1,81 @@
+Assignment Name: CSS Grid 
+Due Date: See Canvas
+Goals: 
+You have been given image files, a starter CSS file, and an HTML file which has all of the required content to recreate the provided  screenshot. Use only CSS to achieve the changes - do not change the html file.
+Objectives: 
+Demonstrate ability to use CSS Grid for layout of page content
+Demonstrate ability to code a working “Skip to Content” link that is not displayed on the screen until it is in focus.
+Demonstrate ability to add and style focus states.
+Demonstrate ability to use media queries to adjust how page content displayed on different devices.
+Resources:
+https://github.com/UMSIComplexWebDesign/339_homework4
+You are provided with a repo that contains the necessary html file, a starter css file,  and a screenshot of the final results.  You will need to edit the existing html AND css file to transform the original page to one that resembles our example using the outlined CSS styles below.  Remember, resource files often have a few bugs in them to provide an opportunity to debug and problem-solve.  The changes will be small.
+Requirements:
+Note, the css code has comments to guide you through these requirements. Please don’t remove the comments.
+All files and folders present, HTML file and CSS stylesheet in proper format, no styles in HTML. You will need to modify the HTML but  do not add any classes or ids.  You must use the classes and ids that we already provided.
+
+
+Add an underline under any link in the nav that is in the hover or focus state.
+The “Skip to content link” (the link within the skip class) should have the following styles on all screen sizes
+The link is positioned 40px above the top of its parent element (it is hidden by default).
+When the link is in focus it is positioned 20px below the top of its parent (so it is visible only when in focus.)
+
+
+Any element in focus should have a 2px solid border on all sides.
+The following specifications are for the mobile view:
+
+.container class uses grid:
+Three columns: 1fr 5fr 1fr
+Gap of 15px between rows;
+
+The first child of the container should
+Take up  all of the columns
+Use the header.jpg file as a non-repeating 
+                        background image with parallax effect
+You can NOT assume that the .overview class will always be the first child.  
+
+The classes .about, .method, .clients, and .contact:
+Begin in 2nd  column and span one column
+Begin on the 2nd, 3rd, 4th and 5th rows respectively.
+
+
+The .about-image, .method-image, .clients-image,   and .contact-image elements:
+Cover all of the columns.
+Have a maximum height of  600px
+Hide any content that goes outside their grid cell. 
+Begin on the 2nd, 3rd, 4th and 5th row respectively.
+
+
+The .text-block class:
+Is centered horizontally and vertically with centered text.
+
+
+The following specifications are for the desktop view (windows of 800px or greater)
+Move the navigation so that the nav is aligned to the other side of the window and has a padding of 30px on the top and bottom and 0 on the left and right.
+
+
+The .container class uses grid with
+Five columns: 50px, auto, 500px, auto, and  50px
+
+The .about, .clients, .method-image, .contact-image:
+Begin in the third column and span two columns
+
+
+The .method, .contact, .about-image, and .clients-image:
+Begin in the second column and span two columns.
+
+
+The .text-block class:
+Has  maximum height of  250px
+Ensures that  any content that goes outside their grid cell is still reachable. 
+
+
+VALIDATE YOUR CODE IN ALL VIEWS and fix errors
+Tips!
+Start with the css file and look for the places you should.
+Get the mobile view complete before you start the desktop view.
+If your rules cascade correctly, you should have fewer selectors in the desktop view
+Submission Requirements:
+Submit a link to the page -  We want to see the deployed page, not the code.
+There is no autograder, but there is a rubric for you to follow.
+
